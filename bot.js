@@ -11,4 +11,4 @@ bot.registry.registerGroup("x_x","X_X");
 bot.registry.registerGroup("wolfex","Wolfex");
 bot.registry.registerDefaults();
 bot.registry.registerCommandsIn(__dirname+"/commands");
-bot.login(usr.token);
+bot.login(process.env.TOKEN);
